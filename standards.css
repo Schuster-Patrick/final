@@ -20,17 +20,28 @@ body {
 
 
 
+
 }
 
 .logo {
-  width:15%;
+  width:10%;
   border-radius: 2rem;
-  text-shadow: 2px 2px 10px white;
+  float: left;
+  box-shadow: 2px 2px 7px black;
+  border: 5px solid white;
+  margin: 0 0 0rem 1rem;
+
+
+
 }
+
+
+
 
 
 
 nav {
+
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -39,7 +50,15 @@ nav ul {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
+
+
+
+
+
 
 nav li {
   list-style-type: none;
@@ -52,3 +71,10 @@ nav a {
   text-decoration: none;
   padding: 1rem 2rem;
 }
+
+nav a:hover {
+  color: black;
+  background-color: white;
+}
+
+
