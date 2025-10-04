@@ -18,7 +18,13 @@ main {
 
 .span2 {
   font-size: 175%;
+  color: black;
+  font-style: italic;
+
   
+
+  
+
   grid-column: span 2;
   padding: 8rem;
   background-image: url(images/floorplanblurredcropped.png) ;
